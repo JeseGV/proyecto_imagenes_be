@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <%- include('partials/head') %>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('partials/nav') %>
+
+    <div class="container p-3" style="margin-top: 5%;">
+        <div class="row col-md-10 offset-md-2">
+            <div class="card mb-5 col-md-10 animate__animated animate__fadeInDown" style="max-width: 2000px;">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="<%= image.path %>" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><%= image.title %></h5>
+                      <p class="card-text"><%= image.description %></p>
+                      <p class="card-text"><small class="text-body-secondary"><%= format(image.created_at) %></small></p>
+                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a href="/image/<%= image._id %>/edit" class="btn btn-primary">Editar</a>
+                        <a href="/image/<%= image._id %>/delete" class="btn btn-danger">Eliminar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

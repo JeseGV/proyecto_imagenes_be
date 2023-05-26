@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <%- include('partials/head') %>
+</head>
+<body>
+    <div class="container p-4">
+        <div class ="row">
+            <div class = "col-md-5 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/image/<%= image._id%>/edit?_method=PUT" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="_method" value="PUT">
+                            
+                            <div class="form-floating" style="margin-bottom: 15px;">
+                                <input class="form-control" name="title" value="<%= image.title %>" id="floatingInputValue"></input>
+                                <label for="floatingInputValue">Titulo</label>
+                              </div>
+
+
+                              <div class="form-floating">
+                                <input class="form-control" name="description" value="<%= image.description %>" id="floatingTextarea2" style="height: 100px"></input>
+                                <label for="floatingTextarea2">Descripción</label>
+                              </div> 
+
+                              <button type="submit" class="btn btn-outline-success" style="margin-top: 15px; width: 100%; ">Editar</button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
