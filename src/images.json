@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "64702fa0ae82b37d4880ebe4"
+  },
+  "created_at": {
+    "$date": "2023-05-26T04:03:44.299Z"
+  },
+  "title": "rimuru",
+  "description": "un gran fondo de pantalla",
+  "filename": "caac119a-2475-48d2-8100-b19cdcfc37e2.jpg",
+  "path": "/img/uploads/caac119a-2475-48d2-8100-b19cdcfc37e2.jpg",
+  "originalname": "1226028.jpg",
+  "mimetype": "image/jpeg",
+  "size": 2594164,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6471176fd8701dd3d0ed92b5"
+  },
+  "created_at": {
+    "$date": "2023-05-26T20:32:47.179Z"
+  },
+  "title": "Testarossa",
+  "description": "Una de los 7 demonios primordiales de tensura el primordial blanco",
+  "filename": "37c8f089-ea7b-4741-a068-4c4b7f2921bd.jpg",
+  "path": "/img/uploads/37c8f089-ea7b-4741-a068-4c4b7f2921bd.jpg",
+  "originalname": "4d4798e74ff2e450648cef4070511390.jpg",
+  "mimetype": "image/jpeg",
+  "size": 97089,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647117aed8701dd3d0ed92b8"
+  },
+  "created_at": {
+    "$date": "2023-05-26T20:33:50.581Z"
+  },
+  "title": "Benimaru",
+  "description": "Príncipe de los ogros y principal comandante de ejercito rimuru",
+  "filename": "98306feb-8330-46cc-8a7d-7e6ed355e3cb.jpg",
+  "path": "/img/uploads/98306feb-8330-46cc-8a7d-7e6ed355e3cb.jpg",
+  "originalname": "7dee104fa76bb0b99c785ce332442dd066a5788fr1-1000-1000v2_hq.jpg",
+  "mimetype": "image/jpeg",
+  "size": 89839,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64712088cb8f7ed7e3b002c5"
+  },
+  "created_at": {
+    "$date": "2023-05-26T21:11:36.101Z"
+  },
+  "title": "Ultima",
+  "description": "Uno de los 7 demonios primordiales violet. Apareció en la película más reciente",
+  "filename": "c8ac237f-5476-4003-b0c2-3fd7000e2a34.jpg",
+  "path": "/img/uploads/c8ac237f-5476-4003-b0c2-3fd7000e2a34.jpg",
+  "originalname": "ultima.jpg",
+  "mimetype": "image/jpeg",
+  "size": 135220,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64750e44cb8f7ed7e3b002e4"
+  },
+  "created_at": {
+    "$date": "2023-05-29T20:42:44.222Z"
+  },
+  "title": "Diablo",
+  "description": "Lo que sea",
+  "filename": "756d4594-e6a3-4fa3-80d8-b0e7505c9dad.jpg",
+  "path": "/img/uploads/756d4594-e6a3-4fa3-80d8-b0e7505c9dad.jpg",
+  "originalname": "HD-wallpaper-diablo-tensura-anime-tenseri-shitara-slime-tensei-shitara-slime-data-ken-anime.jpg",
+  "mimetype": "image/jpeg",
+  "size": 157680,
+  "__v": 0
+}]
